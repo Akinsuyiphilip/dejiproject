@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "quicksand";
+  height: 150vh;
+  background-image: url(/img/diif.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2rem 9%;
+  border-bottom: solid #dd31f45b 1.4px;
+  background-color: rgba(182, 93, 255, 0.062);
+  background-blend-mode: overlay;
+}
+
+header .logo {
+  color: white;
+  font-size: 1.5rem;
+}
+
+header .logo span {
+  color: #dd31f4;
+}
+
+header .logo a {
+  font-size: 1.3rem;
+  color: #dd31f4;
+  font-family: "nunito";
+  padding-top: 0;
+}
+
+header .first {
+  padding: 0 1rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+header .first .team {
+  color: #dd31f4;
+  font-weight: bolder;
+  padding-left: 3rem;
+}
+
+header .first .link {
+  padding-left: 3rem;
+  color: white;
+}
+
+header .first .link:hover {
+  color: #dd31f4;
+}
+
+.work {
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  padding-right: 20rem;
+}
+
+.work h2 {
+  font-size: 3rem;
+  padding-bottom: .8rem;
+  color: #dd31f4;
+}
+
+.work ul {
+  display: block;
+}
+
+.work li {
+  padding-bottom: .9rem;
+}
+
+.work li img {
+  height: 7rem;
+  padding-right: 1rem;
+  border: solid white 2px;
+}
+
+.work li img:hover {
+  border: solid #dd31f4 2px;
+}
+
+.button {
+  text-decoration: none;
+  margin: 1rem;
+  color: white;
+  border: solid #dd31f4 2px;
+  padding: 1rem;
+  position: absolute;
+}
+
+.button:hover {
+  border-color: #c76ed3;
+  color: #dd31f4;
+  border-radius: 2rem;
+}
+/*# sourceMappingURL=services.css.map */
